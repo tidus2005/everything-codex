@@ -2,13 +2,29 @@
 
 副标题: 从熟练使用到 Top 1% Codex Operator 的完整学习材料
 
-版本: 2026-05-17, Asia/Singapore
+版本: v2 draft, 2026-05-17, Asia/Singapore
 
 适用对象: 想把 Codex 当成长期工程能力来训练的开发者、架构师、技术负责人、AI 工程效率负责人、准备对外讲授 Codex 工作法的人。
 
 > 说明: OpenAI 官方名称是 Codex。本文沿用你给出的 "CodeX" 作为标题风格，但正文默认使用 "Codex"。
 
+![Everything CodeX operating system](../assets/v2/codex-operating-system.png)
+
 ---
+
+## 阅读地图
+
+这版把第一版内容重新排成手册结构: 先建立心智模型，再搭建工作台，然后进入 workflow、自动化、安全、评估和授课。
+
+| 章节组 | 你要学到什么 | 推荐产出 |
+| --- | --- | --- |
+| 0-4 | Codex 的心智模型、能力地图、模型选择、与 everything-claude-code 的迁移关系 | 你自己的 Codex 能力地图 |
+| 5-10 | 工作台、AGENTS.md、config、rules、hooks、skills | 一个可复用项目模板 |
+| 11-17 | MCP、subagents、worktrees、prompt、CLI、App/IDE/Cloud、GitHub 工作流 | 一套端到端研发流程 |
+| 18-22 | 验证、memory、安全、经典模板、自动化 | 一套质量与安全闭环 |
+| 23-27 | 90 天训练、评分表、授课大纲、个人 playbook、原则 | 可讲授的课程框架 |
+
+> 阅读建议: 不要按功能记忆。每读完一章，都问自己: 这部分应该沉淀成 AGENTS.md、skill、hook、rule、MCP，还是自动化脚本？
 
 ## 0. 这份材料怎么学
 
@@ -67,6 +83,8 @@ everything-claude-code 给出的核心思路可以浓缩成一句话: 把 agent 
 ## 2. 2026 年 Codex 能力地图
 
 截至 2026-05-17，Codex 的能力已经不是单点工具，而是多 surface 协作。
+
+![Codex surface map](../assets/v2/surface-map.png)
 
 | Surface | 最适合做什么 | 你要掌握的重点 |
 | --- | --- | --- |
@@ -953,6 +971,8 @@ Hooks 安全:
 
 ## 21. 经典工作流模板
 
+![Codex delivery loop](../assets/v2/delivery-loop.png)
+
 ### 新功能
 
 ```text
@@ -1054,6 +1074,8 @@ Skill 适合复杂 playbook:
 ---
 
 ## 23. 90 天训练计划
+
+![90-day operator roadmap](../assets/v2/ninety-day-roadmap.png)
 
 ### 第 1-7 天: 基础能力
 
@@ -1286,4 +1308,3 @@ Codex/
 - OpenAI Codex Memories. https://developers.openai.com/codex/memories
 - OpenAI Codex Security. https://developers.openai.com/codex/security
 - OpenAI Help: Using Codex with your ChatGPT plan. https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan
-
