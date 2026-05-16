@@ -2,6 +2,8 @@
 
 一份面向 Codex / GPT 的系统化学习材料。
 
+![Everything CodeX](assets/everything-codex-cover.png)
+
 这份材料参考了 `everything-claude-code` 的核心思路，但不是 Claude Code 教程，也不是简单搬运。它把 agent harness 的方法论迁移到当前 Codex 体系下，重点覆盖:
 
 - Codex App / CLI / IDE / Cloud / GitHub / Mobile 的能力分工
